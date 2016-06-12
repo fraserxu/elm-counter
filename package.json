@@ -5,7 +5,8 @@
   "description": "elm counter",
   "main": "index.js",
   "scripts": {
-    "build": "elm-make src/Main.elm --output dist/elm.js"
+    "build": "elm-make src/Main.elm --output dist/elm.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

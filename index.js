@@ -8,9 +8,9 @@ const app = express()
 const publicPath = express.static(path.join(__dirname, './dist'), {
   maxAge: 315360000000
 })
-app.use('/dist', publicPath)
+app.use('/', publicPath)
 
-app.get('/', function (req, res) {
+app.get('/count', function (req, res) {
   client.get('count', function (err, reply) {
     if (err) console.log('get count err', err)
     var replyInt = parseInt(reply, 10) + 1
