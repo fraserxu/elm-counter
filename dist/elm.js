@@ -8049,7 +8049,7 @@ var _user$project$Main$LoadSucceed = function (a) {
 	return {ctor: 'LoadSucceed', _0: a};
 };
 var _user$project$Main$getCount = function () {
-	var url = 'http://localhost:3000/count';
+	var url = '/count';
 	return A3(
 		_elm_lang$core$Task$perform,
 		_user$project$Main$LoadFail,

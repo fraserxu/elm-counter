@@ -21,5 +21,8 @@
   "dependencies": {
     "express": "^4.13.4",
     "redis": "^2.6.1"
+  },
+  "devDependencies": {
+    "elm": "^0.17.0"
   }
 }

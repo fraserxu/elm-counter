@@ -76,7 +76,7 @@ getCount : Cmd Msg
 getCount =
   let
     url =
-      "http://localhost:3000/count"
+      "/count"
   in
     Task.perform LoadFail LoadSucceed (Http.get decodeCount url)
 
