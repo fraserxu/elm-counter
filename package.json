@@ -1,0 +1,24 @@
+{
+  "name": "elm-counter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "elm counter",
+  "main": "index.js",
+  "scripts": {
+    "build": "elm-make src/Main.elm --output dist/elm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraserxu/elm-counter.git"
+  },
+  "author": "Fraser Xu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraserxu/elm-counter/issues"
+  },
+  "homepage": "https://github.com/fraserxu/elm-counter#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "redis": "^2.6.1"
+  }
+}
