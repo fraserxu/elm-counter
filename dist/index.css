@@ -1,0 +1,17 @@
+body {
+  background-color: #cb0e70;
+  color: #fef338;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+  color: #000;
+}
